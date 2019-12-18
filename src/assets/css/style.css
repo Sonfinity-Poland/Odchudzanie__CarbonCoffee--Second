@@ -1040,6 +1040,12 @@ header, #tenth span {
 #tenth .text .bigger {
   font-size: 36px;
   line-height: 36px;
+  color: #212529;
+}
+
+#tenth .text .cross {
+  color: #212529;
+  margin-right: 5px;
 }
 
 #tenth .text span {
