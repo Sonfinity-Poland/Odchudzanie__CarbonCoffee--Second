@@ -17,10 +17,6 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
-$(document).ready(function(){
-    $('.slider').slick();
-    $('.slider_second').slick();
-});
 
 ;(function(factory) {
     'use strict';
