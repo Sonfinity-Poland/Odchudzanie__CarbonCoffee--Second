@@ -311,16 +311,15 @@ header, #tenth span {
 
 #third .white_bg:before {
   content: '';
-  position: absolute;
-  right: 9px;
-  bottom: -14px;
-  width: 0px;
-  -webkit-transform: rotate(199deg);
-          transform: rotate(199deg);
-  height: 0;
-  border-top: 0px solid transparent;
-  border-right: 76px solid #fff;
-  border-bottom: 55px solid transparent;
+    background-image: url(../img/shadow.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 20px;
+    bottom: -61px;
+    width: 90px;
+    height: 70px;
 }
 
 #third .slider p {
@@ -1242,7 +1241,7 @@ header, #tenth span {
 
 @media (max-width: 767px) {
   #third .white_bg {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
   }
   #third .coffee_absolute {
     display: none;
