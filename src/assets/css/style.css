@@ -329,6 +329,10 @@ header, #tenth span {
   font-weight: 600;
 }
 
+.slider_avatar {
+  border-radius: 50%;
+}
+
 .insta {
   background-color: #fff;
   margin: 15px;
